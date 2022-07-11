@@ -17,7 +17,7 @@ An adapter helps to join two incompatible interfaces to work together. So, if yo
 
 ## Behavioral<a name="behavioral"></a>
 ### Observer
-Observer pattern is used such that if an object is changed, its dependents objects get notified of that change, Thus, there is 1:M Relationship. As an example, having a Publisher that publish news to the Subscribers, Whenever any new updates or data added, the Subscribers get notified. In this snippet, I am using Java's Observer and Observable classes.
+Observer pattern is used such that if an object is changed, its dependents objects get notified of that change, Thus, there is 1:M Relationship. 
 
 ![Class Diagram](https://github.com/ebercalderon/design_patterns/blob/main/diagrams/observer.png?raw=true)
 
