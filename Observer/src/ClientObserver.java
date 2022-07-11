@@ -5,7 +5,7 @@
 import models.Bank;
 import models.customers.*;
 
-public class Client {
+public class ClientObserver {
     public static void main(String[] args) {
         var bank = new Bank();
         var firstCustomer = new RichCustomer("Peter Peterson");

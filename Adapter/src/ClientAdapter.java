@@ -8,7 +8,7 @@ import contracts.Attacker;
 import models.Robot;
 import models.Tank;
 
-public class Client {
+public class ClientAdapter {
 
 	public static void main(String[] args) {
 

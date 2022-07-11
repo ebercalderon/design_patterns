@@ -1,11 +1,7 @@
 public final class User {
-
     private static User user;
-
     private User() {
     }
-
-
     public static synchronized User getUser() {
 
         if (user == null) {
